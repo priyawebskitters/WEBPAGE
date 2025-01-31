@@ -1,0 +1,1715 @@
+/* ========================= common class ========================= */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    overflow-x: hidden;
+}
+/* .montserrat {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  } */
+/* ==================== navbar =====================*/
+.nav-items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nav-items li a:hover{
+    color: rgb(128, 0, 255);
+    transition: .3s;
+}
+.navbar{
+    background-color: #4a1831;
+    padding: 34px 0;
+
+}
+.nav-items li a{
+    margin: 0 30px;
+    text-transform: uppercase;
+    color: #ffd7ad;
+    display: inline-block;
+    font-family: "Montse rrat", serif;
+    font-size: 18px;
+}
+/*========================== end of navbar========================= */
+/*========================== start of banner========================= */
+.banner{
+    background: url(../img/banner\ image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 48px 0 94px 0;
+    background-position: 100% 100%;
+}
+.banner .container{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-part h1{
+    color: #ffd7ad;
+    text-transform: capitalize;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    font-size: 124.63px;
+}
+.banner-part p{
+    color: #ffd7ad;
+    text-transform: capitalize;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    width: 70%;
+    margin-top: 81px;
+}
+.btn{
+    display: inline-block;
+    background-color:#ffd7ad;;
+    color: #4a1831;
+    padding: 23px 91px;
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #4a1831;
+    transition: 0.6s;
+}
+a{
+    margin-top: 39px;
+}
+/*========================== end of banner========================= */
+/*========================== start of banner-lower========================= */
+.lowerbanner{
+    background-color: #ffd7ad;
+    padding: 80px 0;
+}
+.lowerbanner .container .row{
+    text-align: center;
+}
+.lowerbanner .container .row h2{
+    text-transform: capitalize;
+    color: #4a1831;
+    font-family: "Roboto", serif;
+    font-size: 63px;
+}
+.lowerbanner .container .row p {
+    text-transform: capitalize;
+    color: #4a1831;
+    font-family: "Roboto", serif;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 53px;
+    font-size: 20px;
+}
+.btn-1{
+    display: inline-block;
+    background-color:#4a1831;
+    color: #fff;
+    padding: 23px 100px;
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-top: 67px;
+}
+.btn-1:hover{
+    color: #fff;
+    background-color: black;
+    transition: 1s;
+}
+.btn-1 a{
+    font-family: "Roboto", serif;
+    font-weight: 600;
+}
+/*========================== end of banner-lower========================= */
+/*========================== start of img========================= */
+.img{
+    background: url(../img/backgroundimg.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+/*========================== end of img========================= */
+/*========================== start of about========================= */
+.about{
+    background-color: #ffd7ad;
+}
+.about .container .abt-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .container .abt-child .abt-1{
+    padding: 98px 40px;
+}
+.about .container .abt-child .abt-2{
+    padding-top: 50px;
+}
+.about .container .abt-child .abt-2 h2{
+    text-transform: capitalize;
+    color: #4a1831;
+    font-family: "Roboto", serif;
+    font-size: 75px;
+}
+.about .container .abt-child .abt-2 p {
+    text-transform: capitalize;
+    color: #4a1831;
+    font-family: "Roboto", serif;
+    margin-top: 53px;
+    font-size: 20px;
+}
+.about .container .abt-child .abt-2 .btn-2{
+    display: inline-block;
+    background-color:#4a1831;
+    color: #fff;
+    padding: 24px 75px;
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.about .container .abt-child .abt-2 .btn-2:hover{
+    color: #fff;
+    background-color: black;
+    transition: 1s;
+}
+.about .container .abt-child .abt-2 .btn-2 a{
+    font-family: "Roboto", serif;
+}
+/*========================== end of about========================= */
+/*========================== start of discount========================= */
+.child{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.dis-left h2{
+    font-size: 80px;
+    color: #e63956;
+    font-family: "Roboto", serif;
+}
+.dis-left h3{
+    color: #55112e;
+    font-size: 100px;
+    z-index: 100;
+    font-family: "Roboto", serif;
+    text-transform: uppercase;
+}
+.dis-left h4{
+    font-size: 105px;
+    z-index: 10;
+    display: inline;
+    color: #6cc5ac;
+    font-family: "Roboto", serif;
+    text-transform: uppercase;
+    padding-bottom: 403px;
+}
+.discount{
+    background-color: #ffd7ad;
+    z-index: 10;
+}
+.discount-img figure img{
+    height: 100%;
+    width: 135%;
+    object-fit: cover;
+    z-index: 10;
+    position: relative;
+    left: -164px;
+}
+.dis-left{
+    z-index: 100;
+    width: 110%;
+}
+/*========================== end of discount========================= */
+/*========================== start of offer========================= */
+.offer{
+    background-color: #4a1831;
+}
+.offer .container .offer-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer .container .offer-child .offer-1{
+    padding: 98px 40px;
+}
+.offer .container .offer-child .offer-1 h2{
+    text-transform: capitalize;
+    color:  #ffd7ad;
+    font-family: "Roboto", serif;
+    font-size: 75px;
+}
+.offer .container .offer-child .offer-1 p{
+    text-transform: capitalize;
+    color:  #ffd7ad;
+    font-family: "Roboto", serif;
+    margin-top: 53px;
+    font-size: 20px;
+}
+.offer .container .offer-child .offer-1 .btn-3{
+    display: inline-block;
+    background-color: #ffd7ad;
+    color: #4a1831;
+    padding: 24px 75px;
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.offer .container .offer-child .offer-1 .btn-3:hover{
+    color: #fff;
+    background-color: black;
+    transition: 1s;
+}
+.offer .container .offer-child .offer-1 .btn-3 a{
+    font-family: "Roboto", serif;
+}
+.offer .container .offer-child .offer-2{
+    padding-top: 50px;
+}
+/*========================== end of offer========================= */
+/*========================== start of mid-about========================= */
+.mid-about{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/background2.png);
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.mid-about .container .row{
+    text-align: center;
+}
+.mid-about .container .row h2{
+    text-transform: capitalize;
+    color: #ffd7ad;
+    font-family: "Roboto", serif;
+    font-size: 45px;
+    margin-top: 40px;
+}
+.mid-about .container .row p {
+    text-transform: capitalize;
+    color: #ffd7ad;
+    font-family: "Roboto", serif;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 53px;
+    font-size: 34.67px;
+}
+/*========================== end of mid-about========================= */
+/*========================== start of latest-offer========================= */
+.latest-offer{
+    background-color: #ffd7ad;
+    padding: 80px 0;
+}
+.latest-offer .container .row{
+    text-align: center;
+}
+.latest-offer .container .row h2{
+    text-transform: capitalize;
+    color: #4a1831;
+    font-family: "Roboto", serif;
+    font-size: 50px;
+}
+.latest-offer .container .row p {
+    text-transform: capitalize;
+    color: #4a1831;
+    font-family: "Roboto", serif;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 23px;
+    font-size: 35px;
+}
+.subscribe-container{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.subscribe-container input{
+    border: none;
+    border-radius: 40px;
+    padding: 25px 35px;
+    font-size: 25px;
+    outline: none;
+    width: 600px;
+    color: #999;
+}
+.subscribe-container button {
+    padding: 25px 30px;
+    border: none;
+    border-radius: 40px;
+    background-color: #55112e;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Roboto", serif;
+}
+.subscribe-container button:hover{
+    background-color: #000000;
+    color: #ffd7ad;
+}
+/*========================== end of latest-offer========================= */
+/*========================== start of footer========================= */
+.footer{
+    /* height: 750px; */
+    background-color: #4a1831;
+}
+.footer-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-box{
+    width: 50%;
+}
+.mariachi{
+    padding-top: 243px;
+    width: 80%;
+}
+.mariachi p:nth-child(1){
+    color: #ffd8ad;
+    text-transform: capitalize;
+    font-size: 31.6px;
+    font-family: "Roboto", serif;
+}
+.mariachi p:nth-child(2){
+    padding: 33px 0;
+    color: #ffd8ad;
+    font-size: 23.7px;
+    font-family: "Roboto", serif;
+    width: 80%;
+}
+.icon{
+    width: 50%;
+}
+.icon .social-link i{
+    font-size: 40px;
+    padding-left: 10px;
+    color: #ffd8ad;
+}
+.icon .social-link i:hover{
+    color: #e63956;
+}
+.team{
+    margin: 243PX 15PX 15PX 0px;
+}
+.team p{
+    font-size: 32.6px;
+    text-transform: capitalize;
+    color: #ffd8ad;
+    padding-bottom: 15px;
+    font-family: "Roboto", serif;
+}
+.team .list {
+    padding-bottom: 20px;
+}
+.team .list li{
+    list-style: none;
+    font-size: 23.7px;
+}
+.team .list li a{
+    color: #ffd8ad;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Roboto", serif;
+}
+.team .list li a:hover{
+    color: #e63956;
+    transition: 0.3s;
+}
+  
+  
+  
+  
+  
+
+
+
+
+/* --------media query start--------- */
+/* --------media query start--------- */
+/* --------media query start--------- */
+/* --------media query start--------- */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /* =========start of navbar========== */
+    .navbar .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .nav-items li{
+        margin: 15px 0px;
+    }
+    /* =========end of navbar========== */
+    /* =========start of banner========== */
+    .banner{
+        background-size: cover cover;
+        background-position: center center;
+    }
+    .banner .container{
+        flex-direction: column;
+    }
+    .banner .container .banner-part{
+        margin: 30px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner .container .banner-part figure img{
+        width: 40%;
+    }
+    .banner .container .banner-part h1{
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    .banner .container .banner-part p{
+        width: 100%;
+        margin-top: 40px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .btn{
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    a{
+        margin-top: 40px;
+    }
+    /* =========end of banner========== */
+    /* =========start of lowerbanner========== */
+    .lowerbanner .container .row{
+        text-align: center;
+        margin: 0 auto ;
+    }
+    .lowerbanner .container .row h2{
+        text-transform: capitalize;
+        font-size: 25px;
+    }
+    .lowerbanner .container .row p {
+        text-transform: capitalize;
+        color: #4a1831;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    .btn-1{
+        padding: 10px 40px;
+        border-radius: 40px;
+        font-size: 15px;
+        margin-top: 37px;
+    }
+    /* =========end of lowerbanner========== */
+    /* =========start of img========== */
+    .img{
+        height: 100px;
+    }
+    /* =========end of img========== */
+    /* =========start of about========== */
+    .about .container .abt-child{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about .container .abt-child .abt-1 figure img {
+        width: 100%;
+    }
+    .about .container .abt-child .abt-1{
+        padding: 30px 40px;
+    }
+    .about .container .abt-child .abt-2{
+        padding-top: 1px;
+    }
+    .about .container .abt-child .abt-2 h2{
+        font-size: 28px;
+    }
+    .about .container .abt-child .abt-2 p {
+        margin-top: 24px;
+        font-size: 18px;
+    }
+    .about .container .abt-child .abt-2 .btn-2{
+        padding: 15px 30px;
+        border-radius: 30px;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    /* =========end of about========== */
+    /* =========start of discount========== */
+    .child{
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .dis-left h2{
+        font-size: 20px;
+    }
+    .dis-left h3{
+        font-size: 30px;
+    }
+    .dis-left h4{
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    .discount-img{
+        text-align: center;
+        margin-left: 171px;
+        width: 70%;
+    }
+    .discount-img figure img{
+        height: 100%;
+        /* margin-left: 164px;
+        width: 100%; */
+    }
+    /* =========end of discount========== */
+    /* =========start of offer========== */
+    .offer .container .offer-child{
+        flex-direction: column;
+    }
+    .offer .container .offer-child .offer-1{
+        padding: 40px 10px;
+    }
+    .offer .container .offer-child .offer-1 h2{
+        font-size: 30px;
+    }
+    .offer .container .offer-child .offer-1 p{
+        margin-top: 26.5px;
+        font-size: 20px;
+    }
+    .offer .container .offer-child .offer-1 .btn-3{
+        padding: 15px 40px;
+        border-radius: 40px;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .offer .container .offer-child .offer-2{
+        padding-top: 5px;
+        text-align: center;
+        width: 50%;
+    }
+    .offer .container .offer-child .offer-2 figure img{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    /* =========end of offer========== */
+    /* =========start of mid-about========== */
+    .mid-about{
+        background-size: 100% 100%;
+        background-position: center center;
+    }
+    .mid-about .container .row{
+        text-align: center;
+    }
+    .mid-about .container .row h2{
+        font-size: 22.5px;
+        margin-top: 25px;
+    }
+    .mid-about .container .row p {
+        width: 100%;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+    /* =========end of mid-about========== */
+    /* =========start of latest-offer========== */
+    .latest-offer .container .row{
+        flex-direction: column;
+        text-align: center;
+    }
+    .latest-offer .container .row h2{
+        font-size: 28px;
+    }
+    .latest-offer .container .row p {
+        width: 100%;
+        /* margin: 0 auto; */
+        margin-top: 23px;
+        font-size: 13px;
+    }
+    .subscribe-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 25px;
+    }
+    .subscribe-container input{
+        border-radius: 15px;
+        padding: 5px 10px;
+        font-size: 10px;
+        width: 150px;
+    }
+    .subscribe-container button{
+        padding: 5px 10px;
+        border-radius: 15px;
+        font-size: 10px;
+    }
+    /* =========end of latest-offer========== */
+    /* =========start of footer========== */
+    .footer{
+        padding: 0px 50px;
+    }
+    .footer-parent {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-box{
+        width: 100%;
+    }
+    .mariachi{
+        width: 100%;
+    }
+    .mariachi p:nth-child(1){
+        font-size: 30px;
+    }
+    .mariachi p:nth-child(2){
+        /* padding: 33px 0; */
+        font-size: 20px;
+        width: 100%;
+    }
+    .icon{
+        width: 100%;
+    }
+    .icon .social-link i{
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    .team{
+        width: 100%;
+    }
+    .team p{
+        font-size: 25px;
+        /* padding-bottom: 15px; */
+    }
+    .team .list li a{
+        font-size: 15px;
+    }
+    /* =========end of footer========== */
+ }
+
+
+
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    /* =========start of navbar========== */
+    .navbar .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .nav-items li{
+        margin: 15px 0px;
+    }
+    /* =========end of navbar========== */
+    /* =========start of banner========== */
+    .banner{
+        background-size: cover cover;
+        background-position: center center;
+    }
+    .banner .container{
+        flex-direction: column;
+    }
+    .banner .container .banner-part{
+        margin: 30px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner .container .banner-part figure img{
+        width: 40%;
+    }
+    .banner .container .banner-part h1{
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    .banner .container .banner-part p{
+        width: 100%;
+        margin-top: 40px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .btn{
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+    a{
+        margin-top: 40px;
+    }
+    /* =========end of banner========== */
+    /* =========start of lowerbanner========== */
+    .lowerbanner .container .row{
+        text-align: center;
+        margin: 0 auto ;
+    }
+    .lowerbanner .container .row h2{
+        text-transform: capitalize;
+        font-size: 40px;
+    }
+    .lowerbanner .container .row p {
+        text-transform: capitalize;
+        color: #4a1831;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    .btn-1{
+        padding: 20px 60px;
+        border-radius: 40px;
+        font-size: 25px;
+        margin-top: 37px;
+    }
+    /* =========end of lowerbanner========== */
+    /* =========start of img========== */
+    .img{
+        height: 150px;
+    }
+    /* =========end of img========== */
+    /* =========start of about========== */
+    .about .container .abt-child{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about .container .abt-child .abt-1 figure img {
+        width: 100%;
+    }
+    .about .container .abt-child .abt-1{
+        padding: 30px 40px;
+        width: 50%;
+    }
+    .about .container .abt-child .abt-2{
+        padding-top: 1px;
+    }
+    .about .container .abt-child .abt-2 h2{
+        font-size: 32px;
+    }
+    .about .container .abt-child .abt-2 p {
+        margin-top: 24px;
+        font-size: 22px;
+    }
+    .about .container .abt-child .abt-2 .btn-2{
+        padding: 20px 30px;
+        border-radius: 30px;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    /* =========end of about========== */
+    /* =========start of discount========== */
+    .child{
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .dis-left h2{
+        font-size: 50px;
+    }
+    .dis-left h3{
+        font-size: 60px;
+    }
+    .dis-left h4{
+        font-size: 65px;
+        padding-bottom: 10px;
+    }
+    .discount-img{
+        text-align: center;
+        margin-left: 171px;
+        width: 70%;
+    }
+    .discount-img figure img{
+        height: 100%;
+        /* margin-left: 164px;
+        width: 100%; */
+    }
+    /* =========end of discount========== */
+    /* =========start of offer========== */
+    .offer .container .offer-child{
+        flex-direction: column;
+    }
+    .offer .container .offer-child .offer-1{
+        padding: 40px 10px;
+    }
+    .offer .container .offer-child .offer-1 h2{
+        font-size: 40px;
+    }
+    .offer .container .offer-child .offer-1 p{
+        margin-top: 26.5px;
+        font-size: 25px;
+    }
+    .offer .container .offer-child .offer-1 .btn-3{
+        padding: 20px 45px;
+        border-radius: 40px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .offer .container .offer-child .offer-2{
+        padding-top: 5px;
+        text-align: center;
+        width: 70%;
+    }
+    .offer .container .offer-child .offer-2 figure img{
+        width: 100%;
+        padding-bottom: 35px;
+    }
+    /* =========end of offer========== */
+    /* =========start of mid-about========== */
+    .mid-about{
+        background-size: 100% 100%;
+        background-position: center center;
+    }
+    .mid-about .container .row{
+        text-align: center;
+    }
+    .mid-about .container .row h2{
+        font-size: 35px;
+        margin-top: 25px;
+    }
+    .mid-about .container .row p {
+        width: 100%;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    /* =========end of mid-about========== */
+    /* =========start of latest-offer========== */
+    .latest-offer .container .row{
+        flex-direction: column;
+        text-align: center;
+    }
+    .latest-offer .container .row h2{
+        font-size: 35px;
+    }
+    .latest-offer .container .row p {
+        width: 100%;
+        /* margin: 0 auto; */
+        margin-top: 23px;
+        font-size: 20px;
+    }
+    .subscribe-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 25px;
+    }
+    .subscribe-container input{
+        border-radius: 30px;
+        padding: 15px 25px;
+        font-size: 15px;
+        width: 350px;
+    }
+    .subscribe-container button{
+        padding: 15px 25px;
+        border-radius: 30px;
+        font-size: 15px;
+    }
+    /* =========end of latest-offer========== */
+    /* =========start of footer========== */
+    .footer{
+        padding: 0px 50px;
+    }
+    .footer-parent {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-box{
+        width: 100%;
+    }
+    .mariachi{
+        width: 100%;
+    }
+    .mariachi p:nth-child(1){
+        font-size: 50px;
+    }
+    .mariachi p:nth-child(2){
+        /* padding: 33px 0; */
+        font-size: 30px;
+        width: 100%;
+    }
+    .icon{
+        width: 100%;
+    }
+    .icon .social-link i{
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    .team{
+        width: 100%;
+    }
+    .team p{
+        font-size: 35px;
+        /* padding-bottom: 15px; */
+    }
+    .team .list li a{
+        font-size: 20px;
+    }
+    /* =========end of footer========== */
+ }
+ 
+
+
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    /* =========start of navbar========== */
+    .navbar .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .nav-items li{
+        margin: 15px 0px;
+    }
+    /* =========end of navbar========== */
+    /* =========start of banner========== */
+    .banner{
+        background-size: cover cover;
+        background-position: center center;
+    }
+    .banner .container{
+        flex-direction: column;
+    }
+    .banner .container .banner-part{
+        margin: 30px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner .container .banner-part figure img{
+        width: 40%;
+    }
+    .banner .container .banner-part h1{
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    .banner .container .banner-part p{
+        width: 100%;
+        margin-top: 40px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .btn{
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+    a{
+        margin-top: 40px;
+    }
+    /* =========end of banner========== */
+    /* =========start of lowerbanner========== */
+    .lowerbanner .container .row{
+        text-align: center;
+        margin: 0 auto ;
+    }
+    .lowerbanner .container .row h2{
+        text-transform: capitalize;
+        font-size: 40px;
+    }
+    .lowerbanner .container .row p {
+        text-transform: capitalize;
+        color: #4a1831;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    .btn-1{
+        padding: 20px 60px;
+        border-radius: 40px;
+        font-size: 25px;
+        margin-top: 37px;
+    }
+    /* =========end of lowerbanner========== */
+    /* =========start of img========== */
+    .img{
+        height: 150px;
+    }
+    /* =========end of img========== */
+    /* =========start of about========== */
+    .about .container .abt-child{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about .container .abt-child .abt-1 figure img {
+        width: 100%;
+    }
+    .about .container .abt-child .abt-1{
+        padding: 30px 40px;
+        width: 50%;
+    }
+    .about .container .abt-child .abt-2{
+        padding-top: 1px;
+    }
+    .about .container .abt-child .abt-2 h2{
+        font-size: 32px;
+    }
+    .about .container .abt-child .abt-2 p {
+        margin-top: 24px;
+        font-size: 22px;
+    }
+    .about .container .abt-child .abt-2 .btn-2{
+        padding: 20px 30px;
+        border-radius: 30px;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    /* =========end of about========== */
+    /* =========start of discount========== */
+    .child{
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .dis-left h2{
+        font-size: 50px;
+    }
+    .dis-left h3{
+        font-size: 60px;
+    }
+    .dis-left h4{
+        font-size: 65px;
+        padding-bottom: 10px;
+    }
+    .discount-img{
+        text-align: center;
+        margin-left: 171px;
+        width: 70%;
+    }
+    .discount-img figure img{
+        height: 100%;
+        /* margin-left: 164px;
+        width: 100%; */
+    }
+    /* =========end of discount========== */
+    /* =========start of offer========== */
+    .offer .container .offer-child{
+        flex-direction: column;
+    }
+    .offer .container .offer-child .offer-1{
+        padding: 40px 10px;
+    }
+    .offer .container .offer-child .offer-1 h2{
+        font-size: 40px;
+    }
+    .offer .container .offer-child .offer-1 p{
+        margin-top: 26.5px;
+        font-size: 25px;
+    }
+    .offer .container .offer-child .offer-1 .btn-3{
+        padding: 20px 45px;
+        border-radius: 40px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .offer .container .offer-child .offer-2{
+        padding-top: 5px;
+        text-align: center;
+        width: 70%;
+    }
+    .offer .container .offer-child .offer-2 figure img{
+        width: 100%;
+        padding-bottom: 35px;
+    }
+    /* =========end of offer========== */
+    /* =========start of mid-about========== */
+    .mid-about{
+        background-size: 100% 100%;
+        background-position: center center;
+    }
+    .mid-about .container .row{
+        text-align: center;
+    }
+    .mid-about .container .row h2{
+        font-size: 35px;
+        margin-top: 25px;
+    }
+    .mid-about .container .row p {
+        width: 100%;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    /* =========end of mid-about========== */
+    /* =========start of latest-offer========== */
+    .latest-offer .container .row{
+        flex-direction: column;
+        text-align: center;
+    }
+    .latest-offer .container .row h2{
+        font-size: 35px;
+    }
+    .latest-offer .container .row p {
+        width: 100%;
+        /* margin: 0 auto; */
+        margin-top: 23px;
+        font-size: 20px;
+    }
+    .subscribe-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 25px;
+    }
+    .subscribe-container input{
+        border-radius: 30px;
+        padding: 15px 25px;
+        font-size: 15px;
+        width: 350px;
+    }
+    .subscribe-container button{
+        padding: 15px 25px;
+        border-radius: 30px;
+        font-size: 15px;
+    }
+    /* =========end of latest-offer========== */
+    /* =========start of footer========== */
+    .footer{
+        padding: 0px 50px;
+    }
+    .footer-parent {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-box{
+        width: 100%;
+    }
+    .mariachi{
+        width: 100%;
+    }
+    .mariachi p:nth-child(1){
+        font-size: 50px;
+    }
+    .mariachi p:nth-child(2){
+        /* padding: 33px 0; */
+        font-size: 30px;
+        width: 100%;
+    }
+    .icon{
+        width: 100%;
+    }
+    .icon .social-link i{
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    .team{
+        width: 100%;
+    }
+    .team p{
+        font-size: 35px;
+        /* padding-bottom: 15px; */
+    }
+    .team .list li a{
+        font-size: 20px;
+    }
+    /* =========end of footer========== */
+ }
+
+
+
+
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* =========start of navbar========== */
+    /* =========end of navbar========== */
+    /* =========start of banner========== */
+    .banner .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .container .banner-part{
+        margin: 30px 40px;
+        /* flex-direction: column; */
+        /* text-align: center; */
+    }
+    .banner .container .banner-part figure img{
+        width: 30%;
+    }
+    .banner .container .banner-part h1{
+        font-size: 40px;
+        margin-top: 10px;
+        text-align: start;
+    }
+    .banner .container .banner-part p{
+        width: 80%;
+        margin-top: 40px;
+        font-size: 22px;
+        /* text-align: center; */
+    }
+    .btn{
+        display: inline-block;
+        padding: 20px 40px;
+        border-radius: 40px;
+        text-transform: capitalize;
+        font-size: 26px;
+    }
+    a{
+        margin-top: 40px;
+    }
+    /* =========end of banner========== */
+    /* =========start of lowerbanner========== */
+    .lowerbanner .container .row{
+        text-align: center;
+        /* margin: 0 auto ; */
+    }
+    .lowerbanner .container .row h2{
+        text-transform: capitalize;
+        font-size: 60px;
+    }
+    .lowerbanner .container .row p {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 25px;
+        font-size: 30px;
+    }
+    .btn-1{
+        padding: 20px 60px;
+        border-radius: 40px;
+        font-size: 25px;
+        margin-top: 37px;
+    }
+    /* =========end of lowerbanner========== */
+    /* =========start of img========== */
+    .img{
+        height: 300px;
+    }
+    /* =========end of img========== */
+    /* =========start of about========== */
+    .about .container .abt-child{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about .container .abt-child .abt-1 figure img {
+        width: 100%;
+    }
+    .about .container .abt-child .abt-1{
+        padding: 30px 40px;
+        width: 60%;
+    }
+    .about .container .abt-child .abt-2{
+        padding-top: 1px;
+    }
+    .about .container .abt-child .abt-2 h2{
+        font-size: 55px;
+    }
+    .about .container .abt-child .abt-2 p {
+        margin-top: 24px;
+        font-size: 30px;
+    }
+    .about .container .abt-child .abt-2 .btn-2{
+        padding: 30px 40px;
+        border-radius: 40px;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    /* =========end of about========== */
+    /* =========start of discount========== */
+    .child{
+        padding-top: 20px;
+        /* flex-direction: column; */
+    }
+    .dis-left h2{
+        font-size: 65px;
+        margin-left: 20px;
+    }
+    .dis-left h3{
+        font-size: 70px;
+        margin-left: 20px;
+    }
+    .dis-left h4{
+        font-size: 80px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+    }
+    .discount-img{
+        text-align: center;
+    }
+    .discount-img figure img{
+        height: 50%;
+    }
+    /* =========end of discount========== */
+    /* =========start of offer========== */
+    .offer .container .offer-child .offer-1{
+        padding: 40px 20px;
+    }
+    .offer .container .offer-child .offer-1 h2{
+        font-size: 30px;
+    }
+    .offer .container .offer-child .offer-1 p{
+        margin-top: 26.5px;
+        font-size: 20px;
+    }
+    .offer .container .offer-child .offer-1 .btn-3{
+        padding: 20px 55px;
+        border-radius: 40px;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .offer .container .offer-child .offer-2{
+        padding-top: 5px;
+        text-align: center;
+        width: 70%;
+    }
+    .offer .container .offer-child .offer-2 figure img{
+        width: 100%;
+        padding: 20px;
+    }
+    /* =========end of offer========== */
+    /* =========start of mid-about========== */
+    .mid-about{
+        background-size: 100% 100%;
+        background-position: center center;
+    }
+    .mid-about .container .row{
+        text-align: center;
+    }
+    .mid-about .container .row h2{
+        font-size: 40px;
+        margin-top: 25px;
+    }
+    .mid-about .container .row p {
+        width: 80%;
+        margin-top: 25px;
+        font-size: 30px;
+    }
+    /* =========end of mid-about========== */
+    /* =========start of latest-offer========== */
+    .latest-offer .container .row{
+        flex-direction: column;
+        text-align: center;
+    }
+    .latest-offer .container .row h2{
+        font-size: 45px;
+    }
+    .latest-offer .container .row p {
+        width: 80%;
+        /* margin: 0 auto; */
+        margin-top: 23px;
+        font-size: 25px;
+    }
+    .subscribe-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 25px;
+    }
+    .subscribe-container input{
+        border-radius: 40px;
+        padding: 25px 35px;
+        font-size: 20px;
+        width: 450px;
+    }
+    .subscribe-container button{
+        padding: 25px 35px;
+        border-radius: 40px;
+        font-size: 20px;
+    }
+    /* =========end of latest-offer========== */
+    /* =========start of footer========== */
+    .footer{
+        padding: 0px 50px;
+    }
+    .footer-parent {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-box{
+        width: 100%;
+    }
+    .mariachi{
+        width: 100%;
+    }
+    .mariachi p:nth-child(1){
+        font-size: 50px;
+    }
+    .mariachi p:nth-child(2){
+        /* padding: 33px 0; */
+        font-size: 30px;
+        width: 100%;
+    }
+    .icon{
+        width: 100%;
+    }
+    .icon .social-link i{
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    .team{
+        width: 100%;
+    }
+    .team p{
+        font-size: 35px;
+        /* padding-bottom: 15px; */
+    }
+    .team .list li a{
+        font-size: 20px;
+    }
+    /* =========end of footer========== */
+ }
+
+
+
+
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* =========start of navbar========== */
+    /* =========end of navbar========== */
+    /* =========start of banner========== */
+    .banner .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .container .banner-part{
+        margin: 30px 40px;
+        /* flex-direction: column; */
+        /* text-align: center; */
+    }
+    .banner .container .banner-part figure img{
+        width: 25%;
+    }
+    .banner .container .banner-part h1{
+        font-size: 45px;
+        margin-top: 10px;
+        text-align: start;
+    }
+    .banner .container .banner-part p{
+        width: 80%;
+        margin-top: 40px;
+        font-size: 25px;
+    }
+    .btn{
+        display: inline-block;
+        padding: 20px 45px;
+        border-radius: 40px;
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+    a{
+        margin-top: 40px;
+    }
+    /* =========end of banner========== */
+    /* =========start of lowerbanner========== */
+    .lowerbanner .container .row{
+        text-align: center;
+    }
+    .lowerbanner .container .row h2{
+        text-transform: capitalize;
+        font-size: 60px;
+    }
+    .lowerbanner .container .row p {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 25px;
+        font-size: 30px;
+    }
+    .btn-1{
+        padding: 20px 60px;
+        border-radius: 40px;
+        font-size: 25px;
+        margin-top: 37px;
+    }
+    /* =========end of lowerbanner========== */
+    /* =========start of img========== */
+    .img{
+        height: 350px;
+    }
+    /* =========end of img========== */
+    /* =========start of about========== */
+    .about .container .abt-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .about .container .abt-child .abt-1{
+        padding: 30px 50px;
+        width: 60%;
+    }
+    .about .container .abt-child .abt-2{
+        padding-top: 50px;
+    }
+    .about .container .abt-child .abt-2 h2{
+        font-size: 75px;
+    }
+    .about .container .abt-child .abt-2 p {
+        margin-top: 53px;
+        font-size: 20px;
+    }
+    .about .container .abt-child .abt-2 .btn-2{
+        padding: 24px 75px;
+        border-radius: 40px;
+        font-size: 30px;
+        margin-top: 60 px;
+    }
+    /* =========end of about========== */
+    /* =========start of discount========== */
+    .child{
+        padding-top: 30px;
+        /* flex-direction: column; */
+    }
+    .dis-left h2{
+        font-size: 75px;
+        margin-left: 20px;
+    }
+    .dis-left h3{
+        font-size: 75px;
+        margin-left: 20px;
+    }
+    .dis-left h4{
+        font-size: 85px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+    }
+    .discount-img{
+        text-align: center;
+    }
+    .discount-img figure img{
+        height: 50%;
+    }
+    /* =========end of discount========== */
+    /* =========start of offer========== */
+    .offer .container .offer-child {
+        padding: 40px 40px;
+    }
+    .offer .container .offer-child .offer-1 h2{
+        font-size: 40px;
+    }
+    .offer .container .offer-child .offer-1 p{
+        margin-top: 26.5px;
+        font-size: 22px;
+    }
+    .offer .container .offer-child .offer-1 .btn-3{
+        padding: 20px 80px;
+        border-radius: 40px;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .offer .container .offer-child .offer-2{
+        padding-top: 5px;
+        text-align: center;
+        width: 100%;
+    }
+    .offer .container .offer-child .offer-2 figure img{
+        width: 100%;
+        padding: 20px;
+    }
+    /* =========end of offer========== */
+    /* =========start of mid-about========== */
+    .mid-about{
+        background-size: 100% 100%;
+        background-position: center center;
+    }
+    .mid-about .container .row{
+        text-align: center;
+    }
+    .mid-about .container .row h2{
+        font-size: 40px;
+        margin-top: 25px;
+    }
+    .mid-about .container .row p {
+        width: 80%;
+        margin-top: 25px;
+        font-size: 30px;
+    }
+    /* =========end of mid-about========== */
+    /* =========start of latest-offer========== */
+    .latest-offer .container .row{
+        flex-direction: column;
+        text-align: center;
+    }
+    .latest-offer .container .row h2{
+        font-size: 50px;
+    }
+    .latest-offer .container .row p {
+        width: 80%;
+        /* margin: 0 auto; */
+        margin-top: 23px;
+        font-size: 35px;
+    }
+    .subscribe-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .subscribe-container input{
+        border-radius: 40px;
+        padding: 25px 35px;
+        font-size: 25px;
+        width: 600px;
+    }
+    .subscribe-container button{
+        padding: 25px 35px;
+        border-radius: 40px;
+        font-size: 25px;
+    }
+    /* =========end of latest-offer========== */
+    /* =========start of footer========== */
+    .footer{
+        padding: 0px 50px;
+    }
+    .footer-parent {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-box{
+        width: 100%;
+    }
+    .mariachi{
+        width: 100%;
+    }
+    .mariachi p:nth-child(1){
+        font-size: 50px;
+    }
+    .mariachi p:nth-child(2){
+        /* padding: 33px 0; */
+        font-size: 30px;
+        width: 100%;
+    }
+    .icon{
+        width: 100%;
+    }
+    .icon .social-link i{
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    .team{
+        width: 100%;
+    }
+    .team p{
+        font-size: 35px;
+        /* padding-bottom: 15px; */
+    }
+    .team .list li a{
+        font-size: 20px;
+    }
+    /* =========end of footer========== */
+ }
